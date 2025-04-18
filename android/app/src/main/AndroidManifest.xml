@@ -22,7 +22,7 @@
         tools:replace="android:label">
 
         <activity
-            android:name="com.goride.customer.MainActivity"
+            android:name="mav.custommer.cod.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:exported="true"
             android:hardwareAccelerated="true"
