@@ -1,5 +1,3 @@
-// ignore_for_file: deprecated_member_use, non_constant_identifier_names
-
 import 'dart:async';
 import 'dart:convert';
 import 'dart:developer';
@@ -37,13 +35,22 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:uuid/uuid.dart';
 
 class Constant {
+
+  // Define el tipo de login como "teléfono".
   static const String phoneLoginType = "phone";
+ 
   static const String googleLoginType = "google";
   static const String appleLoginType = "apple";
+ 
+  //// API key para Google Maps.
   static String mapAPIKey = "";
+ 
+ 
   static String senderId = '';
   static String jsonNotificationFileURL = '';
+  
   static String radius = "10";
+  
   static String distanceType = "";
   static CurrencyModel? currencyModel;
   static AdminCommission? adminCommission;
@@ -55,6 +62,8 @@ class Constant {
   static List<LanguagePrivacyPolicy> privacyPolicy = [];
   static String appVersion = "";
 
+
+//
   static String mapType = "google";
   static String selectedMapType = 'osm';
   static String driverLocationUpdate = "10";
