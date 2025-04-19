@@ -1,0 +1,2 @@
+C:/Users/casaf/Downloads/mujeres al volate3/newMVolante/android/app/.cxx/Debug/84k4k39s/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/casaf/Downloads/mujeres al volate3/newMVolante/android/app/.cxx/Debug/84k4k39s/armeabi-v7a/CMakeFiles/rebuild_cache.dir
