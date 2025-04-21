@@ -28,6 +28,7 @@ class _LocationPickerState extends State<LocationPicker> {
     mapController = MapController(
       initMapWithUserPosition: const UserTrackingOption(enableTracking: false, unFollowUser: true),
     );
+    _listerTapPosition();
   }
 
   _listerTapPosition() async {
